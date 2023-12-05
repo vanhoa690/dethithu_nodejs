@@ -29,7 +29,7 @@ Yêu cầu:
 
 - Trả về danh sách sản phẩm: 0.5đ
 - Trả về sản phẩm chi tiết theo Id: 0.5đ
-- Cập nhật sản phẩm: check quyền: đ
+- Cập nhật sản phẩm: check quyền: 1đ
 - Tạo mới sản phẩm: check quyền, validate model Joi : 1đ
 - Xóa sản phẩm: check quyền: 1đ
 
@@ -37,25 +37,25 @@ Yêu cầu:
 
 #### Tạo router : 0.5đ
 
-    POST – /auth/regiser
+    POST – /auth/register
     POST – /auth/login
 
 #### Tạo models User: 0.5đ
 
     name – String, required
-    email: String, emai, required
+    email: String, email, required
     password: String, required
 
 ### Đăng ký: (1đ)
 
-    validate email, password, name
-    kiểm tra email tồn tại,
-    mã hóa password
+    Validate email, password, name
+    Kiểm tra email tồn tại
+    Mã hóa password
 
 ### Đăng nhập: (1đ)
 
-    validate email, password,
-    kiểm tra email tồn tại,
-    so sánh password
-    tạo ra token
+    Validate email, password,
+    Kiểm tra email tồn tại
+    So sánh password
+    Tạo ra token
     Trả về token sau khi đăng nhập thành công
