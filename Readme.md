@@ -30,7 +30,7 @@ Yêu cầu:
 - Trả về danh sách sản phẩm: 0.5đ
 - Trả về sản phẩm chi tiết theo Id: 0.5đ
 - Cập nhật sản phẩm: check quyền: 1đ
-- Tạo mới sản phẩm: check quyền, validate model Joi : 1đ
+- Tạo mới sản phẩm: check quyền 1đ
 - Xóa sản phẩm: check quyền: 1đ
 
 ## 4. Xây dựng API Auth đăng ký và đăng nhập: (3đ)
